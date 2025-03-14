@@ -1,1 +1,1 @@
-# 2425-cc3-project-D.I.C.K.Z.
+# 2425-cc3-project-DICKZ
