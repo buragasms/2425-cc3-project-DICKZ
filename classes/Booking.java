@@ -1,7 +1,11 @@
 import java.util.Date;
 
 public class Booking extends User {
-
+    private String bookingId;
+    private Date startDate;
+    private Date endDate;
+    private double totalPrice;
+    
     public Booking(int hotelId, int roomId, String bookingId, Date startDate, Date endDate) {
         this.bookingId = bookingId;
         this.startDate = startDate;
