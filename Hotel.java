@@ -3,7 +3,11 @@ import java.util.Date;
 import java.util.List;
 
 public class Hotel extends Manager{
-
+    private String bookingId;
+    private Date startDate;
+    private Date endDate;
+    private double totalPrice;
+    
     public Hotel(int hotelId, String name, String location) {
         this.hotelId = hotelId;
         this.name = name;
