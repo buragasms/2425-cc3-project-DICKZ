@@ -3,14 +3,18 @@ import java.util.Date;
 import java.util.List;
 
 public class Hotel extends Manager{
+    private String hotelId
+    private String location
+    private List<Room> rooms
+    private List<Booking> bookings
     
-    public Hotel(int hotelId, String name, String location) {
+    public Hotel(String hotelId, String name, String location) {
         this.hotelId = hotelId;
         this.name = name;
         this.location = location;
     }
 
-    public int getHotelId() { return hotelId; }
+    public String getHotelId() { return hotelId; }
     public String getLocation() { return location; }
 
     public void addRoom(Room room) { rooms.add(room); }
